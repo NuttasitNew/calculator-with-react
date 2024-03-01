@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 0 auto;
   width: 98%;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -14,8 +14,10 @@
 
 .calculator-container {
   background: #202124;
+  display: flex;
+  flex-flow: column nowrap;
   width: 750px;
-  height: 80vh;
+  height: 85vh;
   max-width: 1000px; /* Ensure it doesn't become too large */
   min-width: 500px; /* Ensure it doesn't become too small */
 }
@@ -51,6 +53,7 @@
 }
 
 .display-container {
+  margin-top: 30px;
   width: auto;
   height: 20%;
   background: #202124;
@@ -62,8 +65,8 @@
 
 .display {
   border: 1px solid #70757a;
-
-  width: 90%;
+  margin-left: 5px;
+  width: 690px;
   height: 85%;
   display: flex;
   flex-flow: column nowrap;
@@ -71,7 +74,6 @@
 }
 
 .display-history {
-  border: 1px solid greenyellow;
   margin-right: 12px;
   height: 30%;
   color: rgb(197, 196, 196);
@@ -83,7 +85,6 @@
 }
 
 .display-result {
-  border: 1px solid green;
   height: 60%;
   color: white;
   font-size: 50px;
@@ -102,9 +103,9 @@
 }
 
 .command-container {
-  border: 5px solid gold;
+  margin-top: 0px;
   width: auto;
-  height: 80%;
+  height: auto;
 }
 
 button {

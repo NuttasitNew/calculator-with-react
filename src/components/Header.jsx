@@ -6,7 +6,7 @@ export default function Header() {
     <div className="header-container">
       <section className="header-navbar">
         <img src={logo} className="logo" />
-        <p>Calculator Project - Nuttasit New</p>
+        <p>Calculator - Nuttasit New</p>
       </section>
     </div>
   );
